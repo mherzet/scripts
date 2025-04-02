@@ -12,7 +12,7 @@ git clone $GIT_CMD_REPOSITORY
 
 cp -r Dev-SourceAVD/* Project-GithubSourceAVD/
 
-cd TestGitSync
+cd Project-GithubSourceAVD
 
 git config --global user.email "$AZUSER_EMAIL"
 git config --global user.name "$AZUSERNAME"
