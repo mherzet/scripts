@@ -13,6 +13,6 @@ jobs:
         AZUSER_EMAIL: ${{secrets.AZUSER_EMAIL}}
         AZORG: ${{secrets.AZORG}}
       run: |
-         chmod +x ../commit.sh
-         ../commit.sh
+         chmod +x ./commit.sh
+         ./commit.sh
       shell: bash
