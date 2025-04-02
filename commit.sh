@@ -10,7 +10,7 @@ cd ..
 GIT_CMD_REPOSITORY="https://$AZUSERNAME:$AZUREPAT@dev.azure.com/$AZORG/Project-GithubSourceAVD/_git/Project-GithubSourceAVD"
 git clone $GIT_CMD_REPOSITORY
 
-cp -r testAzureDevops/* TestGitSync/
+cp -r Dev-SourceAVD/* Project-GithubSourceAVD/
 
 cd TestGitSync
 
