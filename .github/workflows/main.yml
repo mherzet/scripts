@@ -1,5 +1,6 @@
-name: Push directory to another repository
-on: push
+name: Push Github Repo to another Azure repo
+on:
+ workflow_dispatch:
 jobs:
   check-bats-version:
     runs-on: ubuntu-latest
